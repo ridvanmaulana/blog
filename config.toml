@@ -1,0 +1,121 @@
+baseURL = "https://ridvanmau.github.io"
+languageCode = "id-ID"
+DefaultContentLanguage = "id"
+title = "ridvanmau.com"
+theme = "less"
+timeout = 200000
+RemovePathAccents = true
+enableRobotsTXT = true
+canonifyURLs = true
+paginate = 5
+googleAnalytics = "UA-155099144-3"
+disqusShortname = "ridvanmau"
+
+[author]
+  name = "Ridvan Maulana"
+
+[blackfriday]
+  hrefTargetBlank = true
+  noreferrerLinks = true
+  nofollowLinks = true
+
+[permalinks]
+  posts = "/:slug"
+  categories = "/:slug"
+
+[imaging]
+  resampleFilter = "lanczos"
+
+[params]
+  #googleAdsense = "ca-pub-3520097993586116"
+  copyright = "RidvanMaulana"
+
+  # image size
+  sizes = [ "2048" , "1024" , "512" ]
+  tags = []
+
+  # fonts
+  sansSerifFont = "Josefin Sans"
+  titleFont = "Crimson Text"
+  bodyFont = "Lora"
+
+  # color
+  accentColor = "#00bcd4"
+  hasLogo = true
+  heroHeader = true
+
+[taxonomies]
+  category = "categories"
+
+[params.titles]
+  posts = "Linux"
+  categories = "Kategori"
+
+# social
+[params.social]
+  email = "me@ridvanmau.com"
+  domain = "ridvanmau.com"
+  instagram = "ridvanmaulana"
+  twitter = "ridvanmaulana"
+  facebook = "ridvanmaulana"
+  # linkedin = "ridvanmaulana"
+  # github = "ridvanmaulana"
+  # paypal = "ridvanmaulana"
+  # telegram = "ridvanmaulana"
+
+# menu contents
+[[menu.main]]
+  name = "Cerita"
+  title = "Cerita kehidupan"
+  weight = 1
+  identifier = "cerita"
+  url = "/cerita"
+[[menu.main]]
+  name = "Teknologi"
+  title = "Informasi seputar teknologi"
+  weight = 2
+  identifier = "teknologi"
+  url = "/teknologi"
+[[menu.main]]
+  name = "Pendidikan"
+  title = "Seputar pendidikan"
+  weight = 3
+  identifier = "pendidikan"
+  url = "/pendidikan"
+  
+[[menu.main]]
+  name = "Kesehatan"
+  title = "Seputar kesehatan"
+  weight = 4
+  identifier = "kesehatan"
+  url = "/kesehatan"  
+
+[[menu.main]]
+  name = "Hobi"
+  title = "Berbagi cerita hobi"
+  weight = 5
+  identifier = "hobi"
+  url = "/hobi"    
+  
+[[menu.main]]
+  name = "Otomotif"
+  title = "Seputar otomotif"
+  weight = 5
+  identifier = "otomotif"
+  url = "/otomotif"    
+  
+
+  
+# footer contents
+[params.license]
+  type = "About Me"
+  url = "/about"
+
+[params.policy]
+  type = "Privacy Policy"
+  url = "/privacy-policy"
+
+[[related.indices]]
+  name = "categories"
+  weight =  1
+  includeNewer = true

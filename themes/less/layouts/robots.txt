@@ -1,0 +1,3 @@
+# Punten, teu aya nanaon.
+User-agent:*
+Sitemap: {{ "sitemap.xml" | absLangURL }}
